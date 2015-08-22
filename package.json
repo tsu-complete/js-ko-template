@@ -1,0 +1,24 @@
+{
+  "name": "ko-template",
+  "version": "0.0.0",
+  "description": "template engine for knockout",
+  "main": "index.coffee",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tsu-complete/js-ko-template.git"
+  },
+  "keywords": [
+    "template",
+    "engine",
+    "knockout"
+  ],
+  "author": "tsukumo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tsu-complete/js-ko-template/issues"
+  },
+  "homepage": "https://github.com/tsu-complete/js-ko-template#readme",
+  "dependencies": {
+    "knockout": "^3.3.0"
+  }
+}
