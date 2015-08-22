@@ -19,6 +19,14 @@
   class ko.TemplateEngine extends ko.nativeTemplateEngine
 
     ##
+    # convenience wrapper for setting template engine in ko
+    # @return {Object} constructed template engine
+    @use: ->
+      engine = new ko.TemplateEngine
+      ko.setTemplateEngine engine
+      return engine
+
+    ##
     # invoke super and create templates registry
     constructor: ( ) ->
       super
