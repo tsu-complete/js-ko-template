@@ -47,9 +47,9 @@
 
       parent[name] = new ko.templateSources.domElement template if name
 
-      for child in template.children
+      for child in template.content.children
         if "template" is ko.utils.tagNameLower child
-          template.removeChild child
+          template.content.removeChild child
           @register (child.getAttribute "name"), child,
           if name then parent[name] else parent
 
